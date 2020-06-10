@@ -1,0 +1,139 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/sunset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+}
+
+.center {
+	width: 900px;
+	padding: 2%;
+    margin: 20px auto;
+	text-align: center;
+}
+
+#logo {
+    margin-bottom: 16px;
+	border: 10px;
+	text-align: left;
+	max-width:25%;
+	max-height:25%;
+}
+
+h1 {
+	font: 30px/2 Helvetica, Verdana, sans-serif;
+    margin: 0px auto 20px auto;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+    line-height: 1.7;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+
+   
+  nav li{
+	  display:inline;
+	 
+  }
+   
+  ul {
+	overflow: -moz-hidden-unscrollable;
+	list-style-type: none;
+	text-align: center;
+  }
+   
+  li {
+	height: 10px;
+	float: center;
+	border-right: 1px solid white;
+	padding: 0 20px;
+  }
+   
+  li:last-child {
+	border-right: none;
+  }
+   
+  li a {
+	text-decoration: none;
+	color: #f15a25;
+	font: 18px/1 Helvetica, Verdana, sans-serif;
+   
+  }
+
+  li a:hover {
+	color: white;
+  }
+   
+  li.active a {
+	font-weight: bold;
+	color: #333;
+  }
